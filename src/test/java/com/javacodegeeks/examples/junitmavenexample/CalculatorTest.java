@@ -64,6 +64,6 @@ public class CalculatorTest {
 	public void testSubstraction() {
 		int result = 10 - 3;
 
-		assertTrue(result == 7);
+		assertTrue(result == 9);
 	}
 }
