@@ -33,7 +33,7 @@ public class CalculatorTest {
 	public void testSum() {
 		int result = calculator.sum(3, 4);
 
-		assertEquals(7, result);
+		assertEquals(4, result);
 	}
 
 	@Test
@@ -41,7 +41,7 @@ public class CalculatorTest {
 		try {
 			int result = calculator.divison(10, 2);
 
-			assertEquals(5, result);
+			assertEquals(6, result);
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
 		}
